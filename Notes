@@ -1,0 +1,17 @@
+Things different between our project and previous
+
+1. 
+Our Project does not have this:
+
+IV. Messaging functions
+  [X] send a question to the customer service (customer reps will reply it)
+  [X] Rep replies to customer questions (I misread the checklist and did this too because I thought it was my part)
+  [X] browse questions and answers
+  [X] search questions and answers
+  [X] get an alert message in case a route is delayed.
+
+2.
+Our project does not have this:
+V. Admin functions (revenue reporting)
+ [X] destination city
+
