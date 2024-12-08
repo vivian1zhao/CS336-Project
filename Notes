@@ -21,39 +21,35 @@ V. Admin functions (reservations)
 [X] by transit line and train number
 
 
+1. Messaging Functions
+Our Checklist: No mention of messaging functionalities.
+GITHUB Checklist:
+Send a question to customer service.
+Rep replies to customer questions.
+Get an alert message in case a route is delayed.
+2. Train Schedule Reports
+Our Checklist:
 
-Our Check List
-I. Account Functionality (10 points)
- Register customers
- Login (for all customers, admin, customer reps)
- Logout (for all customers, admin, customer reps)
-II. Browsing and Search Functionality (15 points)
- Search for train schedules by origin, destination, date of travel (5 points)
- Browse the resulting schedules (5 points)
- See all the stops a train will make, fare, etc.
- Sort by different criteria (by arrival time, departure time, fare) (5 points)
-III. Reservations (15 points)
- A customer should be able to make a reservation for a specific route (round-trip/one-way) (5 points)
- Get a discount in case of child/senior/disabled (2 points)
- Cancel existing reservation (3 points)
- View current and past reservations with their details (separately) (5 points)
-IV. Admin Functions (30 points)
- Admin (create an admin account ahead of time)
- Add, edit, and delete information for a customer representative (9 points)
- Obtain sales reports per month (3 points)
- Produce a list of reservations: (5 points)
-By transit line
-By customer name
- Produce a listing of revenue per: (5 points)
+Produce a list of train schedules for a given station (as origin/destination).
+Produce a list of all customers who have reservations on a given transit line and date.
+GITHUB Checklist:
+
+Combines train schedule outputs: "Produces a list of train schedules for a specific origin and destination and for a given station (as origin/destination)."
+Customer reservations are still listed separately but slightly reworded: "all customers who have seats reserved on a given transit line and train."
+3. Revenue Reporting
+Our Checklist: Revenue reports for:
+
 Transit line
 Customer name
- Best customer (4 points)
- Best 5 most active transit lines (4 points)
-VI. Customer Representative (30 points)
- Edit and delete information for train schedules (6 points)
- Customers browse questions and answers (4 points)
- Customers search questions by keywords (4 points)
- Customers send a question to the customer service (3 points)
- Reps reply to customer questions (3 points)
- Produce a list of train schedules for a given station (as origin/destination) (5 points)
- Produce a list of all customers who have reservations on a given transit line and date (5 points)
+GITHUB Checklist: Adds:
+
+Destination city
+4. Train Numbers in Admin Reports
+Our Checklist: No mention of train numbers in reports.
+GITHUB Checklist:
+Produces reservations "by transit line and train number (e.g., Northeast Corridor #3425)."
+5. Alert for Route Delays
+Our Checklist: No mention.
+GITHUB Checklist: Adds:
+"Get an alert message in case a route is delayed."
+
